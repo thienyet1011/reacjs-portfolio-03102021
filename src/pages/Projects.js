@@ -1,10 +1,20 @@
 import React from "react";
+import styled from "styled-components";
+
+import SectionTitle from "../components/SectionTitle";
+
+const ProjectsStyles = styled.div`
+  padding: 10rem 0;
+`;
 
 function Projects() {
   return (
-    <div>
-      <h1>This is Project page</h1>
-    </div>
+    <ProjectsStyles>
+      <div className="container">
+        <SectionTitle heading="Projects"
+          subheading="some of recent works" />
+      </div>
+    </ProjectsStyles>
   );
 }
 
