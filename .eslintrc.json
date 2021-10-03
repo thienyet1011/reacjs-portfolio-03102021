@@ -1,0 +1,29 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": [
+        "plugin:react/recommended",
+        "google"
+    ],
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 12,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react"
+    ],
+    "rules": {
+        "max-len": ["error", {
+            "ignoreStrings": true
+        }],
+        "object-curly-spacing": ["error", "always"],
+        "quotes": ["error", "double"],
+        "require-jsdoc": "off",
+        "react/prop-types": "off"
+    }
+}
