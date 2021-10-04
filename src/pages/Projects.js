@@ -41,6 +41,7 @@ const ProjectsStyles = styled.div`
     .projects__searchBar form,
     .projects__searchBar input {
       width: 100%;
+      height: 44px;
     }
   }
 `;

@@ -12,7 +12,8 @@ const ItemStyles = styled.div`
     }
     .servicesItem__title {
         font-size: 2.5rem;
-        font-family: 'Montserrat SemiBold';
+        font-family: "Times New Roman";
+        font-weight: 700;
     }
     .para {
         margin-top: 2rem;
