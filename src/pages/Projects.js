@@ -8,6 +8,12 @@ import ProjectInfo from "..//assets/data/projects";
 
 const ProjectsStyles = styled.div`
   padding: 10rem 0;
+  animation: fadeIn 450ms;
+  
+  @keyframes fadeIn {
+    0% { opacity: 0; transform: scale(0.5); }
+    100% { opacity: 1; transform: scale(1); }
+  }
   .project__allItems {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));

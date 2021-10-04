@@ -10,6 +10,12 @@ import ContactBanner from "../components/ContactBanner";
 
 const AboutPageStyles = styled.div`
   padding: 20rem 0 10rem 0;
+  animation: fadeIn 450ms;
+  
+  @keyframes fadeIn {
+    0% { opacity: 0; transform: scale(0.5); }
+    100% { opacity: 1; transform: scale(1); }
+  }
   .top-section {
     display: flex;
     align-items: center;
