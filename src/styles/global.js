@@ -18,6 +18,7 @@ const GlobalStyles = createGlobalStyle`
     font-size: 10px;
     font-family: "Times New Roman";
     background-color: var(--dark-bg);
+    scroll-behavior: smooth;
   }
   ul,li{
     list-style: none;
@@ -47,6 +48,7 @@ const GlobalStyles = createGlobalStyle`
       background-color: var(--dark-bg);
     }
     .scrollbar-track.scrollbar-track-y {
+      z-index: 101;
       background: var(--deep-dark);
       .scrollbar-thumb-y {
         background: var(--gray-1);
